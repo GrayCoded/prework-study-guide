@@ -1,22 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prework Study Guide</title>
-  </head>
-  <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-    </header>
-    <main>
-      <!-- Student code goes here -->
-    </main>
 
-    <footer>
-      <p>I can code!</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prework Study Guide</title>
+</head>
+
+<body>
+  <header id="top">
+    <h1>Prework Study Guide</h1>
+    <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+  </header>
+  <main>
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
+      <ul>
+        <li>!DOCTYPE -	Defines the document type</li>
+        <li>Id - An HTML element can have an id attribute to identify it. id elements should always be unique to that single element, and each element should never have more than one id.</li>
+        <li>Head - contains metadata/information for the document</li>
+        <li>HTML Element - a unit of the content in an HTML document formed by HTML tags
+          and the text or media it contains</li>
+        <li>Opening Tag - The element name used to start an HTML</li>
+        <li>Content - The information between the open and closing tags</li>
+        <li>Closing Tag - The element name used to end an HTML</li>
+        <li>Button tag - used to create a button</li>
+        <li>Anchor tag - used to specify the text that is used to achor a link </li>
+        <li>HREF -The href attribute allows us to specify the URL, or address on the web, that a link should take users
+          to. See below for an example of the href</li>
+        <li>HTML gives the website structure to adhere CSS and Javascript too</li>
+        <li>Header content shows up at theh top of the website</li>
+        <li>Footer content shows up at the bottom of the website</li>
+        <li>Ordered lists or OL use numbers for listed information where as Unordered lists or UL use a bullet format
+          for the same information</li>
+        <li>Image elements can contain multiple attributes </li>
+        <li>Break elements create a line of empty space in between two blocks of content </li>
+        <li>It is important to use tags in the correct order starting from H1 to H6, with H1 being the largest heading
+        </li>
+        <li>The head element contains information about the webpage.</li>
+        <li>The body element represents the visible content shown to the user.</li>
+      </ul>
+
+    </section>
+
+    <section class="card" id="css-section">
+      <h2>CSS</h2>
+      <ul>
+        <li>Enter CSS notes here</li>
+      </ul>
+
+    </section>
+
+    <section class="card" id="git-section">
+      <h2>GIT</h2>
+      <ul>
+        <li>
+          git init initializes your local directory as a new git repository. You must run this before you can commit any
+          of your work.</li>
+        <li>git status shows the current status of your repo. It will show you if you have any work that is unstaged,
+          what branch you are on, how many commits you are ahead of the master remote on github, and other useful
+          things.
+        </li>
+        <li>git diff shows you the changes in your unstaged code</li>
+        <li>git remote -v shows you all the remotes for your repo. The v stands for verbose, which shows you the URL of
+          the repository on github, if any, that your local repository is pointing to rather than just the name of the
+          remote repo.</li>
+        <li>git add . takes all unstaged work and stages it, making it ready to be committed. You can also specify a particular file to stage with git add file-path/name-of-file</li>
+        <li>git commit -m "write commit message here" commits all staged work. It’s important to write a brief, clear commit message so you know what each commit is for. “Final commit” is not the commit message you’re looking for exactly 100% of the time.</li>
+        <li>git pull once you’ve committed all your local work and running git status shows that you have nothing to commit, you pull down any changes from your remote. By default, this will pull from the origin remote’s master branch. To be specific about which remote and branch to pull from, you can use: git pull name-of-remote name-of-branch</li>
+        <li>git push pushes your local changes up to your remote. By default, this will push to the origin remote’s master branch. Like pull, you can push to a specific remote and branch with: git push name-of-remote name-of-branch. This is useful if you are using branches and pull requests. If you get an error message, it’s probably because you haven’t pushed your local branch up to github yet. Try git push -u name-of-remote name-of-branch.</li>
+        <li>git branch shows you all your local branches and indicates which branch you are currently on</li>
+        <li>git checkout -b name-of-new-branch makes a new branch and switches to that branch.</li>
+        <li>git merge name-of-branch will merge the specified branch into the branch you are currently on.</li>
+        <li>git branch -d name-of-branch-to-delete deletes the specified branch</li>
+        <li>git log will show you the full list of commits and authors for your repo</li>
+        <li>history will show you your past git commands</li>
+        <li>git stash stashes any unstaged changes in your repository. They will not be present in your codebase, but they are not deleted.</li>
+        <li>git stash pop gives you back the last staged changes you stashed</li>
+        <li>git blame file-path/name-of-file shows you line-by-line who wrote the code in the specified file. Useful when you have a question about how something works and want to figure out who to ask, and also great source of shame when you realize you wrote the chunk of code you’ve been swearing at for the last hour.</li>
+       
+
+      </ul>
+
+    </section>
+
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+      <ul>
+        <li>Enter JavaScript notes here</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>I can code!</p>
+  </footer>
+</body>
+
 </html>
